@@ -1,0 +1,21 @@
+.test-select{
+    margin: 20px 0px 10px 10px;
+}
+
+.subject-select{
+    display: block;
+    margin : 10px;
+}
+
+.result-list-wrapper{
+    display: block;
+    margin : 10px
+}
+
+.subject-p{
+    border-bottom: solid #6b8e23;
+}
+
+.result-p{
+    border-bottom: solid #808000;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ss.css" type="text/css">
+    <title>実験用</title>
+  </head>
+  <body>
+    <div class="welcome-wrapper">
+      <h1 class="appreciation">実験への参加ありがとうございます!!!</h1>
+      <!-- <p>あなたは番目の被験者です</p> -->
+    </div>
+
+    <div class="base">
+    
+    <div class="test-start">
+      <div class="test-property">
+        <label for="test_selector">テスト : </label>
+        <select name="test_selector" id="test_selector"></select>
+
+        <label for="subject_name">名前 : </label>
+        <input type="text" id="subject_name"/>
+      </div>
+
+      <button id="start_button">始める</button>
+    </div>
+    
+    <div class="mode-wrapper">
+      <div class="setting-mode">
+        <h3>テスト作成はこちらから</h3>
+        <button id="setting_button">作成</button>
+      </div>
+
+      <div class="eval-mode">
+        <h3>集計はこちらから</h3>
+        <button id="eval_button">集計</button>
+      </div>
+    </div>
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

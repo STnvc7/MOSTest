@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ss.css" type="text/css">
+    <title>テスト作成</title>
+  </head>
+  <body>
+    
+    <button id="back_button" type="button">戻る</button>
+
+    <div class="create-wrapper">
+      <label for="test_name">テスト名：</label>
+      <input id="test_name" type="text" name="test_name", value="myTest">
+      <button id="choose_button" type="button">フォルダを追加</button>
+      
+      <div id='folder_list_wrapper'>
+        <label for="folder_list">カテゴリ</label>
+        <ul id="folder_list"></ul>
+      </div>
+
+      <div class="create-button">
+        <button id="create_button" type="button">作成</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="./ss.css" type="text/css"/>
+        <title>評価</title>
+    </head>
+    <body>
+        <button id="back_button" type="button">戻る</button>
+
+        <div class="test-select">
+            <label for="test_selector">テスト : </label>
+            <select name="test_selector" id="test_selector"></select>
+        </div>
+
+        <div class="result-wrapper">
+            <div class="subject-select">
+                <p class="subject-p">被験者s</p>
+                <div class="subject-list" id="subject_list"></div>
+
+                <button id="eval_button" type="button">集計</button>
+            </div>
+
+            <div class="result-list-wrapper">
+                <p class="result-p">結果</p>
+                <ul id="result_list"></ul>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

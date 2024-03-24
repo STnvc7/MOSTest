@@ -1,0 +1,6 @@
+node_modules/*
+bin/*
+TestConfig/*
+Result/*
+.DS_Store
+build/*

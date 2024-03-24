@@ -1,0 +1,38 @@
+/* .welcome-wrapper{
+    font-family:HGS創英角ﾎﾟｯﾌﾟ体;
+}
+.appreciation{
+    background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    display: inline-block;
+} */
+.base{
+    margin: 10px 0px 0px 10px
+}
+.test-start{
+    margin-top: 30px;
+}
+.test-property{
+    margin-bottom : 10px;
+}
+/* .mode-wrapper{
+    display: flex;
+} */
+.setting-mode{
+    display: inline-block;
+    vertical-align: top;
+    width : 40%;
+    border-top : solid #2f4f4f;
+    margin-top : 40px;
+    margin-right : 20px;
+
+}
+.eval-mode{
+    display: inline-block;
+    vertical-align: top;
+    width:40%;
+    border-top : solid #008080;
+    margin-top : 40px
+}

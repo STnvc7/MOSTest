@@ -1,0 +1,31 @@
+{
+  "name": "ex_app",
+  "productName": "MOSTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "chcp 65001 && electron .",
+    "build": "electron-packager . MOSTest --icon=asset/icon.ico --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.3.5",
+    "csv-parse": "^5.5.2",
+    "csv-writer": "^1.6.0",
+    "date-utils": "^1.2.21",
+    "glob": "^10.3.10"
+  },
+  "devDependencies": {
+    "csv": "^6.3.5",
+    "csv-parse": "^5.5.2",
+    "csv-writer": "^1.6.0",
+    "date-utils": "^1.2.21",
+    "electron": "^27.1.2",
+    "electron-packager": "^17.1.2",
+    "glob": "^10.3.10"
+  }
+}

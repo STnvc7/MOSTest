@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ss.css" type="text/css">
+    <title>実験用</title>
+  </head>
+  <body>
+    <audio id="elem:audio" autoplay></audio>
+
+    <div class="question">
+      <h3 id="elem:index">1.</h3>
+    </div>
+
+    <div class="score-form">
+      <form id="score_form" method="Post">
+        <input id='form:Bad' type='radio' name='score' value=1>
+        <label for='form:Bad'>非常に悪い</label>
+        <input id='form:Poor' type='radio' name='score' value=2>
+        <label for='form:Poor'>悪い</label>
+        <input id='form:Fair' type='radio' name='score' value=3 checked>
+        <label for='form:Fair'>普通</label>
+        <input id='form:Good' type='radio' name='score' value=4>
+        <label for='form:Good'>良い</label>
+        <input id='form:Excellent' type='radio' name='score' value=5>
+        <label for='form:Excellent'>非常に良い</label>
+      </form>
+    </div>
+    
+    <button disabled id='back_button' type="button">戻る</button>
+    <button disabled id='next_button' type="button">次へ</button>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

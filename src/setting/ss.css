@@ -1,0 +1,22 @@
+li{
+    list-style-type: circle;
+}
+.create-wrapper{
+    margin : 20px 0px 20px 10px;
+}
+#folder_list_wrapper{
+    margin: 20px 30% 20px 5px;
+}
+#folder_list{
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px dashed #4682b4;
+}
+.folder-element{
+    margin: 7px 0px 7px 20px;
+}
+.create-button{
+    padding-top: 10px;
+
+}
